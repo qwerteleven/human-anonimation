@@ -1,0 +1,6 @@
+torch
+torchvision
+mmcv-full
+wandb
+prettytable
+insightface
