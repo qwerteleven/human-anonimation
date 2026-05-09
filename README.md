@@ -60,9 +60,7 @@ The blur kernel scales proportionally to the image size (`factor=3`), ensuring c
 ### Ground Truth vs. Inference
 
 | Original | Anonymized |
-
 |----------|-------------|
-
 <img src="https://github.com/qwerteleven/human-anonimation/blob/main/assets/FIXLIUCA4BHXPMVKCWHZFESN5M-scaled.jpg" width="370"> | <img src="https://github.com/qwerteleven/human-anonimation/blob/main/assets/blured_img1.jpg" width="370"> |
 
 ### More examples — Adverse conditions
@@ -100,17 +98,11 @@ pip install -e .
 Main dependencies:
 
 | Library | Usage |
-
 |----------|-----|
-
 `torch` / `torchvision` | Deep learning engine ([PyTorch](https://en.wikipedia.org/wiki/PyTorch)) |
-
 `mmcv-full` | Computer vision utilities (OpenMMLab) |
-
 `insightface` | Facial detection with RetinaFace |
-
 `wandb` | Experiment Tracking (Weights & Biases) |
-
 `prettytable` | Terminal Metrics Visualization |
 
 
@@ -142,17 +134,11 @@ python demo/image_demo.py "path/to/images/*.jpg" config.py checkpoint.pth \
 Asynchronous mode allows processing multiple images in parallel using `asyncio`, reducing the total time for large batches.
 
 ### Key Parameters
-
 | Parameter | Description | Default |
-
 |-----------|-------------|---------|
-
 `--score-thr` | Minimum confidence threshold to accept a detection | `0.5` |
-
 `--device` | Inference device (`cuda:0`, `cpu`) | `cuda:0` |
-
 `factor` | Blur intensity (lower = more blurred) | `3` |
-
 `det_size` | Input resolution for RetinaFace | `(640, 640)` |
 
 ---
@@ -218,17 +204,11 @@ Automatic anonymization allows for the publication of image datasets in public s
 ## Related work and references
 
 | Concept | Reference |
-
 ----------|------------|
-
 Semi-supervised learning | [Semi-supervised learning — Wikipedia](https://en.wikipedia.org/wiki/Semi-supervised_learning) |
-
 Object detection | [Object detection — Wikipedia](https://en.wikipedia.org/wiki/Object_detection) |
-
 Convolutional neural networks | [Convolutional neural network — Wikipedia](https://en.wikipedia.org/wiki/Convolutional_neural_network) |
-
 Gaussian blur | [Gaussian blur — Wikipedia](https://en.wikipedia.org/wiki/Gaussian_blur) |
-
 Data anonymization | [Data anonymization — Wikipedia](https://en.wikipedia.org/wiki/Data_anonymization) |
 | GDPR / privacy | [General Data Protection Regulation — Wikipedia](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) |
 | Bounding box | [Bounding box — Wikipedia](https://en.wikipedia.org/wiki/Bounding_box) |
