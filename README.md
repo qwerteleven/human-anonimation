@@ -68,11 +68,11 @@ The blur kernel scales proportionally to the image size (`factor=3`), ensuring c
 | | |
 |--|--|
 | <img src="https://github.com/qwerteleven/human-anonimation/blob/main/assets/beach_.jpeg" width="370"> | <img src="https://github.com/qwerteleven/human-anonimation/blob/main/assets/fog_20.jpg" width="370"> |
-| <img src="https://github.com/qwerteleven/human-anonimation/blob/main/assets/night_12.jpg" width="370"> | <img src="https://github.com/qwerteleven/human-anonymation/blob/main/assets/night_14.jpg" width="370"> |
+| <img src="https://github.com/qwerteleven/human-anonimation/blob/main/assets/night_12.jpg" width="370"> | <img src="https://github.com/qwerteleven/human-anonimation/blob/main/assets/night_14.jpg" width="370"> |
 | <img src="https://github.com/qwerteleven/human-anonimation/blob/main/assets/fog_4.jpg" width="370"> | <img src="https://github.com/qwerteleven/human-anonimation/blob/main/assets/rain_10.jpg" width="370"> |
 | <img src="https://github.com/qwerteleven/human-anonimation/blob/main/assets/sandstorm_7.jpg" width="370"> | <img src="https://github.com/qwerteleven/human-anonimation/blob/main/assets/sandstorm_1.jpg" width="370"> |
 | <img src="https://github.com/qwerteleven/human-anonimation/blob/main/assets/rain_19.jpg" width="370"> | <img src="https://github.com/qwerteleven/human-anonimation/blob/main/assets/rain_4.jpg" width="370"> |
-| <img src="https://github.com/qwerteleven/human-anonymation/blob/main/assets/snow_15.jpg" width="370"> | <img src="https://github.com/qwerteleven/human-anonimation/blob/main/assets/sandstorm_14.jpg" width="370"> |
+| <img src="https://github.com/qwerteleven/human-anonimation/blob/main/assets/snow_15.jpg" width="370"> | <img src="https://github.com/qwerteleven/human-anonimation/blob/main/assets/sandstorm_14.jpg" width="370"> |
 
 The system maintains good performance in beach, fog, rain, snow and sandstorm scenes, conditions where classic detectors tend to degrade.
 
